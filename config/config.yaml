@@ -1,0 +1,22 @@
+project_name: Atmospheric Instrument QC
+raw_data_path: data/raw
+interim_data_path: data/interim
+processed_data_path: data/processed
+figures_path: figures
+
+calibration_defaults:
+  scale_factor: 1.0
+  offset: 0.0
+  reference_temperature_c: 20.0
+  drift_correction:
+    enabled: true
+    rate_per_day: 0.5
+
+qc_thresholds:
+  min_physical_value: -50.0
+  max_physical_value: 500.0
+  spike_jump_threshold: 35.0
+  trend_window_points: 72
+  max_abs_trend_per_day: 3.0
+  max_time_gap_minutes: 15
+  max_missing_fraction: 0.05
