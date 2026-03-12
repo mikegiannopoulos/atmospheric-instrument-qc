@@ -8,25 +8,13 @@ A reproducible Python pipeline for atmospheric measurements that demonstrates in
 This project mirrors common atmospheric instrument operations: field data acquisition from time-series sensors, application of calibration corrections, rule-based quality control and flagging, reproducible processing steps, and diagnostic visualization for technical review. The implementation is intentionally transparent so scientists and instrument engineers can inspect assumptions, thresholds, and outputs.
 
 ## Typical Instrument Data Workflow
-Raw sensor data
-
-↓
-Ingestion
-
-↓
-Calibration
-
-↓
-Quality Control
-
-↓
-Flagging
-
-↓
-Analysis-ready dataset
-
-↓
-Diagnostics
+- Raw sensor data
+- Ingestion
+- Calibration
+- Quality Control
+- Flagging
+- Analysis-ready dataset
+- Diagnostics
 
 
 Atmospheric observations require strict QA/QC procedures because downstream interpretation depends on data integrity. Reproducible processing and explicit flagging are essential for scientific reliability, intercomparison, and long-term measurement value.
