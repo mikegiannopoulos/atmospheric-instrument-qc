@@ -9,27 +9,21 @@ This project mirrors common atmospheric instrument operations: field data acquis
 
 ## Typical Instrument Data Workflow
 Raw sensor data
-
 ↓
 
 Ingestion
-
 ↓
 
 Calibration
-
 ↓
 
 Quality Control
-
 ↓
 
 Flagging
-
 ↓
 
 Analysis-ready dataset
-
 ↓
 
 Diagnostics
